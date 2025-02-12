@@ -38,7 +38,7 @@ ul {
     width: 100%;
     position: relative;
     bottom: 0;
-    margin-top: 600px;
+    margin-top: 550px;
   }
   
   footer p {
@@ -48,3 +48,36 @@ ul {
   body {
     text-align: center;
   }
+
+  .discord {
+    text-align: center;
+    margin-top: 85px;
+  }
+  
+  .discord-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #7289da; /* Discord purple */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+  }
+
+  .email-button {
+    display: inline-block;
+    background-color: #8B0000;
+    color: white;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 25px;  /* This makes the rounded corners */
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.2s;
+}
+
+.email-button:hover {
+    background-color: #660000;
+}
