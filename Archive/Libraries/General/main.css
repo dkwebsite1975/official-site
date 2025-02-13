@@ -30,19 +30,6 @@ ul {
     background-color: #111;
   }
 
-  .heading {
-    text-align: center;
-    background-color: lightgray;
-    width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-
-  body p {
-    margin-left: 150px;
-    margin-right: 150px;
-  }
-
   .footer {
     background-color: #333333;
     color: white; /* Text color */
@@ -51,9 +38,15 @@ ul {
     width: 100%;
     position: relative;
     bottom: 0;
-    margin-top: 5%;
+    margin-top: 40em;
   }
   
   footer p {
     margin: 0; /* Remove default margin */
+  }
+
+  #archivetitle {
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: dotted underline;
   }

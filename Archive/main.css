@@ -1,6 +1,9 @@
 body, html {
-    background-color: #f9f9f9;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f9f9f9;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -41,3 +44,25 @@ ul {
   footer p {
     margin: 0; /* Remove default margin */
   }
+
+#archivetitle {
+  text-align: center;
+  font-size: xx-large;
+  text-decoration: dotted underline;
+}
+
+.resources {
+  margin-right: 150px;
+  margin-left: 150px;
+
+}
+
+.resources section {
+  border-bottom: lightgray solid 1px;
+  padding: 20px;
+}
+
+.resources h3 {
+  text-align: center;
+  text-decoration: underline;
+}
