@@ -53,6 +53,9 @@ nav ul {
 
 .resources {
    text-align: center;
+   width: 60%;
+   margin-right: auto;
+   margin-left: auto;
 }
 
 .resources li {

@@ -38,7 +38,7 @@ nav ul {
     width: 100%;
     position: relative;
     bottom: 0;
-    margin-top: 10em;
+    margin-top: 40em;
   }
   
   footer p {
@@ -51,15 +51,34 @@ nav ul {
     text-decoration: dotted underline;
   }
 
-.resources {
+.written-resources {
    text-align: center;
+   width: 60%;
+   margin-right: auto;
+   margin-left: auto;
 }
 
-.resources li {
+.written-resources li {
   padding: 15px;
   list-style-type: none;
 }
 
-.resources li a {
+.written-resources li a {
   font-style: italic;
 }
+
+.video-resources {
+    text-align: center;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+ }
+ 
+ .video-resources li {
+   padding: 15px;
+   list-style-type: none;
+ }
+
+ .video-resources li a {
+   font-style: italic;
+ }
